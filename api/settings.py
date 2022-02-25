@@ -1,7 +1,7 @@
 '''Configuración de la aplicación.'''
 import os
 
-DEBUG = True
+DEBUG = False
 TESTING = False
 PATH = os.path.dirname(os.path.abspath(__file__))
 ENV = "development"

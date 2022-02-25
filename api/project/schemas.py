@@ -30,7 +30,7 @@ class EditorialInSchema(Schema):
 class LibroSchema(Schema):
     id = Integer(required=True, validate=Range(min=1000000, max=9999999))
     nombre = String(required=True, validate=Length(min=2, max=250))
-    comentario = String(required=False, validate=Length(min=2, max=500))
+    comentario = String(required=False, validate=Length(min=2, max=500), load_default=None)
     autor = fields.Nested(AutorSchema(exclude=("libros",)))
     autor_id = Integer(required=True, validate=Range(min=1000000, max=9999999))
     editorial = fields.Nested(EditorialSchema(exclude=("libros",)))
@@ -38,7 +38,7 @@ class LibroSchema(Schema):
 
 class LibroInSchema(Schema):
     nombre = String(required=True, validate=Length(min=2, max=250))
-    comentario = String(required=False, validate=Length(min=2, max=500))
+    comentario = String(required=False, validate=Length(min=2, max=500), load_default=None)
     autor = fields.Nested(AutorSchema(exclude=("libros",)))
     autor_id = Integer(required=True, validate=Range(min=1000000, max=9999999))
     editorial = fields.Nested(EditorialSchema(exclude=("libros",)))
