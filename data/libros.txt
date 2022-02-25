@@ -1,0 +1,15 @@
+[
+    {'id': 1000001, 'nombre': 'It (Eso)', 'autor_id': '1000001', 'editorial_id': '1000003'},
+    {'id': 1000002, 'nombre': 'Danza Macrabra', 'autor_id': '1000001', 'editorial_id': '1000008'},
+    {'id': 1000003, 'nombre': 'Los mutilados en el reino de los sueños', 'autor_id': '1000002', 'editorial_id': '1000001'},
+    {'id': 1000004, 'nombre': 'Libros de Sangre (Volúmenes I, II y III)', 'autor_id': '1000004', 'editorial_id': '1000008'},
+    {'id': 1000005, 'nombre': 'Pesadilla a 20,000 pies y otros relatos insólitos y terroríficos', 'autor_id': '1000003', 'editorial_id': '1000008'},
+    {'id': 1000006, 'nombre': 'Soy Leyenda', 'autor_id': '1000001', 'editorial_id': '1000004'},
+    {'id': 1000007, 'nombre': 'El Dragón Flotante', 'autor_id': '1000005', 'editorial_id': '1000009'},
+    {'id': 1000008, 'nombre': 'Rabia', 'autor_id': '1000001', 'editorial_id': '1000002'},
+    {'id': 1000009, 'nombre': 'Fantasmas', 'autor_id': '1000005', 'editorial_id': '1000010'},
+    {'id': 1000010, 'nombre': 'El exorcista', 'autor_id': '1000007', 'editorial_id': '1000011'},
+    {'id': 1000011, 'nombre': 'Narrativa Completa Tomo I', 'autor_id': '1000006', 'editorial_id': '1000005'},
+    {'id': 1000012, 'nombre': 'El lugar maldito', 'autor_id': '1000008', 'editorial_id': '1000007'},
+    {'id': 1000013, 'nombre': 'En la cripta y otros cuentos', 'autor_id': '1000006', 'editorial_id': '1000006'},
+]

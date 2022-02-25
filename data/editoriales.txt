@@ -1,0 +1,11 @@
+[{'id': 1000001, 'nombre': 'Sin Editorial'},
+{'id': 1000002, 'nombre': 'Martinez Roca'},
+{'id': 1000003, 'nombre': 'DEBOLSILLO'},
+{'id': 1000004, 'nombre': 'Minotauro'},
+{'id': 1000005, 'nombre': 'Mirlo'},
+{'id': 1000006, 'nombre': 'Tomo'},
+{'id': 1000007, 'nombre': 'Vergara'},
+{'id': 1000008, 'nombre': 'Valdemar'},
+{'id': 1000009, 'nombre': 'Circulo de Lectores'},
+{'id': 1000010, 'nombre': 'Plaza & Janés'},
+{'id': 1000011, 'nombre': 'Emecé'}]
